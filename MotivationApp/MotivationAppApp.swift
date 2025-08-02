@@ -11,7 +11,9 @@ import SwiftUI
 struct MotivationAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                HomeView()
+            }
         }
     }
 }
